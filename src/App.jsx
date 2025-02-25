@@ -1,9 +1,13 @@
-import "./App.css";
+import Footer from "./Components/Footer";
+import Home from "./Components/Home/Home";
+import NavBar from "./Components/NavBar";
 
 function App() {
   return (
     <>
-      <h1 className="text-2xl">TeeSpace</h1>
+      <NavBar />
+      <Home />
+      <Footer />
     </>
   );
 }
