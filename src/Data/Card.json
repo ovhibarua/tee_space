@@ -6,7 +6,7 @@
     "size": "M",
     "color": "Goldenrod",
     "material": "cotton",
-    "img": "../../src/assets/img/card1.png"
+    "img": "/public/assets/img/card1.png"
   },
   {
     "product_name": "Midweight Cotton Tee",
@@ -15,7 +15,7 @@
     "size": "M",
     "color": "Green",
     "material": "polyester",
-    "img": "../../src/assets/img/card2.png"
+    "img": "/public/assets/img/card2.png"
   },
   {
     "product_name": "Youth Sleeve Tee",
@@ -24,7 +24,7 @@
     "size": "XL",
     "color": "Green",
     "material": "wool",
-    "img": "../../src/assets/img/card3.png"
+    "img": "/public/assets/img/card3.png"
   },
   {
     "product_name": "Fine Jersey Tee",
@@ -33,6 +33,6 @@
     "size": "S",
     "color": "Turquoise",
     "material": "polyester",
-    "img": "../../src/assets/img/card4.png"
+    "img": "/public/assets/img/card4.png"
   }
 ]
