@@ -1,7 +1,7 @@
 [
   {
     "user_id": 1,
-    "img": "/src/assets/face/uifaces-popular-image.jpg",
+    "img": "/assets/face/uifaces-popular-image.jpg",
     "name": "Thomasina Crut",
     "designation ": "Director of Sales",
     "comment_text": "Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. ",
@@ -9,7 +9,7 @@
   },
   {
     "user_id": 2,
-    "img": "/src/assets/face/uifaces-popular-image (1).jpg",
+    "img": "/assets/face/uifaces-popular-image (1).jpg",
     "name": "Isobel Legging",
     "designation ": "Web Developer II",
     "comment_text": "Quisque erat eros, viverra eget, congue eget, semper rutrum,",
@@ -17,7 +17,7 @@
   },
   {
     "user_id": 3,
-    "img": "/src/assets/face/uifaces-popular-image (2).jpg",
+    "img": "/assets/face/uifaces-popular-image (2).jpg",
     "name": "Skippy Killock",
     "designation ": "Research Associate",
     "comment_text": "Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. ",
@@ -25,7 +25,7 @@
   },
   {
     "user_id": 4,
-    "img": "/src/assets/face/uifaces-popular-image (3).jpg",
+    "img": "/assets/face/uifaces-popular-image (3).jpg",
     "name": "Ferrell Bach",
     "designation ": "Systems Administrator II",
     "comment_text": "Etiam vel augue. Vestibulum rutrum rutrum neque.",
@@ -33,7 +33,7 @@
   },
   {
     "user_id": 5,
-    "img": "/src/assets/face/uifaces-popular-image (4).jpg",
+    "img": "/assets/face/uifaces-popular-image (4).jpg",
     "name": "Bili Enterlein",
     "designation ": "Financial Advisor",
     "comment_text": "Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.  ",
@@ -41,7 +41,7 @@
   },
   {
     "user_id": 6,
-    "img": "/src/assets/face/uifaces-popular-image (5).jpg",
+    "img": "/assets/face/uifaces-popular-image (5).jpg",
     "name": "Anissa Parradye",
     "designation ": "Cost Accountant",
     "comment_text": "Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
@@ -49,7 +49,7 @@
   },
   {
     "user_id": 7,
-    "img": "/src/assets/face/uifaces-popular-image (6).jpg",
+    "img": "/assets/face/uifaces-popular-image (6).jpg",
     "name": "Michaela Skypp",
     "designation ": "Automation Specialist III",
     "comment_text": "Sed sagittis. Nam congue, risus semper porta volutpat, ",
@@ -57,7 +57,7 @@
   },
   {
     "user_id": 8,
-    "img": "/src/assets/face/uifaces-popular-image (7).jpg",
+    "img": "/assets/face/uifaces-popular-image (7).jpg",
     "name": "Jessica Bonson",
     "designation ": "Biostatistician II",
     "comment_text": "In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.",
@@ -65,7 +65,7 @@
   },
   {
     "user_id": 9,
-    "img": "/src/assets/face/uifaces-popular-image (8).jpg",
+    "img": "/assets/face/uifaces-popular-image (8).jpg",
     "name": "Tallulah Greetland",
     "designation ": "Compensation Analyst",
     "comment_text": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. ",
@@ -73,7 +73,7 @@
   },
   {
     "user_id": 10,
-    "img": "/src/assets/face/uifaces-popular-image (9).jpg",
+    "img": "/assets/face/uifaces-popular-image (9).jpg",
     "name": "Celestyn Sprankling",
     "designation ": "Legal Assistant",
     "comment_text": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. ",
@@ -81,7 +81,7 @@
   },
   {
     "user_id": 11,
-    "img": "/src/assets/face/uifaces-popular-image (1).jpg",
+    "img": "/assets/face/uifaces-popular-image (1).jpg",
     "name": "Kalil Tree",
     "designation ": "Software Test Engineer",
     "comment_text": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
@@ -89,7 +89,7 @@
   },
   {
     "user_id": 12,
-    "img": "/src/assets/face/uifaces-popular-image (4).jpg",
+    "img": "/assets/face/uifaces-popular-image (4).jpg",
     "name": "Oralle Huxtable",
     "designation ": "Senior Developer",
     "comment_text": "Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. ",
@@ -97,7 +97,7 @@
   },
   {
     "user_id": 13,
-    "img": "/src/assets/face/uifaces-popular-image (7).jpg",
+    "img": "/assets/face/uifaces-popular-image (7).jpg",
     "name": "Becca Vondra",
     "designation ": "Internal Auditor",
     "comment_text": "Mauris lacinia sapien quis libero.",
@@ -105,7 +105,7 @@
   },
   {
     "user_id": 14,
-    "img": "/src/assets/face/uifaces-popular-image (6).jpg",
+    "img": "/assets/face/uifaces-popular-image (6).jpg",
     "name": "Agnese Castelijn",
     "designation ": "VP Product Management",
     "comment_text": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",

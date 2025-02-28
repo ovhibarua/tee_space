@@ -7,37 +7,37 @@ const customData = [
     title: "NO Die & plate charges",
     subTitle:
       "Lorem ipsum det, cowec tetur duis necgi det, consect eturlagix adipiscing eliet duis necgi det, con",
-    img: "/src/assets/img/Vector.png",
+    img: "/assets/img/Vector.png",
   },
   {
     title: "High quality offset printing",
     subTitle:
       "Lorem ipsum det, cowec tetur duis necgi det, consect eturlagix adipiscing eliet duis necgi det, con",
-    img: "/src/assets/img/Vector2.png",
+    img: "/assets/img/Vector2.png",
   },
   {
     title: "Secure payment",
     subTitle:
       "Lorem ipsum det, cowec tetur duis necgi det, consect eturlagix adipiscing eliet duis necgi det, con",
-    img: "/src/assets/img/Vector3.png",
+    img: "/assets/img/Vector3.png",
   },
   {
     title: "Custom size & style",
     subTitle:
       "Lorem ipsum det, cowec tetur duis necgi det, consect eturlagix adipiscing eliet duis necgi det, con",
-    img: "/src/assets/img/Vector4.png",
+    img: "/assets/img/Vector4.png",
   },
   {
     title: "Fast & free delivery",
     subTitle:
       "Lorem ipsum det, cowec tetur duis necgi det, consect eturlagix adipiscing eliet duis necgi det, con",
-    img: "/src/assets/img/Vector5.png",
+    img: "/assets/img/Vector5.png",
   },
   {
     title: "Low minimum order quantity",
     subTitle:
       "Lorem ipsum det, cowec tetur duis necgi det, consect eturlagix adipiscing eliet duis necgi det, con",
-    img: "/src/assets/img/Vector6.png",
+    img: "/assets/img/Vector6.png",
   },
 ];
 
