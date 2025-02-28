@@ -1,0 +1,242 @@
+[
+  {
+    "product_name": "Honorable",
+    "brand": "Centizu",
+    "price": 253.41,
+    "size": "L",
+    "color": "Indigo",
+    "material": "polyester"
+  },
+  {
+    "product_name": "Dr",
+    "brand": "Realcube",
+    "price": 899.96,
+    "size": "M",
+    "color": "Violet",
+    "material": "polyester"
+  },
+  {
+    "product_name": "Rev",
+    "brand": "Gigashots",
+    "price": 414.03,
+    "size": "L",
+    "color": "Aquamarine",
+    "material": "cotton"
+  },
+  {
+    "product_name": "Mrs",
+    "brand": "Midel",
+    "price": 248.15,
+    "size": "XL",
+    "color": "Violet",
+    "material": "wool"
+  },
+  {
+    "product_name": "Dr",
+    "brand": "BlogXS",
+    "price": 212.25,
+    "size": "S",
+    "color": "Orange",
+    "material": "polyester"
+  },
+  {
+    "product_name": "Ms",
+    "brand": "Quamba",
+    "price": 367.29,
+    "size": "M",
+    "color": "Green",
+    "material": "polyester"
+  },
+  {
+    "product_name": "Mr",
+    "brand": "Jabbertype",
+    "price": 502.63,
+    "size": "S",
+    "color": "Aquamarine",
+    "material": "silk"
+  },
+  {
+    "product_name": "Ms",
+    "brand": "Livetube",
+    "price": 336.52,
+    "size": "M",
+    "color": "Teal",
+    "material": "silk"
+  },
+  {
+    "product_name": "Mrs",
+    "brand": "Cogibox",
+    "price": 43.84,
+    "size": "M",
+    "color": "Goldenrod",
+    "material": "polyester"
+  },
+  {
+    "product_name": "Honorable",
+    "brand": "Kayveo",
+    "price": 321.54,
+    "size": "M",
+    "color": "Yellow",
+    "material": "cotton"
+  },
+  {
+    "product_name": "Dr",
+    "brand": "Shuffletag",
+    "price": 861.28,
+    "size": "L",
+    "color": "Mauv",
+    "material": "cotton"
+  },
+  {
+    "product_name": "Mr",
+    "brand": "Oyoloo",
+    "price": 461.04,
+    "size": "L",
+    "color": "Aquamarine",
+    "material": "polyester"
+  },
+  {
+    "product_name": "Dr",
+    "brand": "Topiclounge",
+    "price": 314.97,
+    "size": "L",
+    "color": "Goldenrod",
+    "material": "cotton"
+  },
+  {
+    "product_name": "Dr",
+    "brand": "Eare",
+    "price": 998.95,
+    "size": "L",
+    "color": "Khaki",
+    "material": "cotton"
+  },
+  {
+    "product_name": "Dr",
+    "brand": "Browsezoom",
+    "price": 267.83,
+    "size": "M",
+    "color": "Crimson",
+    "material": "cotton"
+  },
+  {
+    "product_name": "Dr",
+    "brand": "Demivee",
+    "price": 273.27,
+    "size": "M",
+    "color": "Orange",
+    "material": "cotton"
+  },
+  {
+    "product_name": "Rev",
+    "brand": "Buzzdog",
+    "price": 156.18,
+    "size": "L",
+    "color": "Violet",
+    "material": "cotton"
+  },
+  {
+    "product_name": "Dr",
+    "brand": "Vinder",
+    "price": 804.47,
+    "size": "M",
+    "color": "Aquamarine",
+    "material": "cotton"
+  },
+  {
+    "product_name": "Dr",
+    "brand": "Topicshots",
+    "price": 676.58,
+    "size": "S",
+    "color": "Crimson",
+    "material": "wool"
+  },
+  {
+    "product_name": "Ms",
+    "brand": "Rhycero",
+    "price": 27.94,
+    "size": "M",
+    "color": "Yellow",
+    "material": "wool"
+  },
+  {
+    "product_name": "Mr",
+    "brand": "Yotz",
+    "price": 670.14,
+    "size": "XL",
+    "color": "Purple",
+    "material": "cotton"
+  },
+  {
+    "product_name": "Ms",
+    "brand": "Feedmix",
+    "price": 228.48,
+    "size": "M",
+    "color": "Aquamarine",
+    "material": "silk"
+  },
+  {
+    "product_name": "Ms",
+    "brand": "Buzzster",
+    "price": 460.01,
+    "size": "S",
+    "color": "Green",
+    "material": "polyester"
+  },
+  {
+    "product_name": "Honorable",
+    "brand": "Feedmix",
+    "price": 160.89,
+    "size": "M",
+    "color": "Maroon",
+    "material": "wool"
+  },
+  {
+    "product_name": "Ms",
+    "brand": "BlogXS",
+    "price": 578.56,
+    "size": "XL",
+    "color": "Blue",
+    "material": "cotton"
+  },
+  {
+    "product_name": "Dr",
+    "brand": "Brainbox",
+    "price": 292.72,
+    "size": "L",
+    "color": "Fuscia",
+    "material": "polyester"
+  },
+  {
+    "product_name": "Dr",
+    "brand": "Zoovu",
+    "price": 753.59,
+    "size": "S",
+    "color": "Aquamarine",
+    "material": "cotton"
+  },
+  {
+    "product_name": "Mrs",
+    "brand": "Yakitri",
+    "price": 496.99,
+    "size": "XL",
+    "color": "Puce",
+    "material": "silk"
+  },
+  {
+    "product_name": "Honorable",
+    "brand": "Pixoboo",
+    "price": 805.59,
+    "size": "XL",
+    "color": "Orange",
+    "material": "polyester"
+  },
+  {
+    "product_name": "Ms",
+    "brand": "Devshare",
+    "price": 763.17,
+    "size": "XL",
+    "color": "Blue",
+    "material": "silk"
+  }
+]

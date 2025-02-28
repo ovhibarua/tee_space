@@ -7,12 +7,12 @@ const navLink = ["Home", "TeeSpace", "Shop", "Blog", "Pages"];
 
 function NavBar() {
   return (
-    <nav className="px-7 py-6 flex justify-between items-center">
-      <div>
+    <nav className="px-5 lg:px-7 py-4 lg:py-6 flex justify-between items-center">
+      <div className="w-32 lg:w-fit">
         <Image addImg={logo} />
       </div>
-      <div className="flex items-center gap-6">
-        <ul className="flex items-center gap-6">
+      <div className="hidden md:flex items-center gap-3 lg:gap-6">
+        <ul className="flex items-center gap-4 lg:gap-6">
           {navLink.map((item, index) => (
             <li
               className="font-bold cursor-pointer hover:text-[#2EBB77]"
@@ -24,7 +24,7 @@ function NavBar() {
         </ul>
         <span className="cursor-pointer">
           <svg
-            className="w-6 h-6"
+            className="w-4 lg:w-6 h-4 lg:h-6"
             clip-rule="evenodd"
             fill-rule="evenodd"
             stroke-linejoin="round"
@@ -39,14 +39,10 @@ function NavBar() {
           </svg>
         </span>
       </div>
-      <div className="flex items-center gap-4">
-        <span className="p-3 rounded-full cursor-pointer bg-[#F5F5F5] inline-block">
+      <div className="flex items-center gap-2 lg:gap-4">
+        <span className="p-1.5 lg:p-3 w-7 h-7 lg:w-fit lg:h-fit rounded-full cursor-pointer bg-[#F5F5F5] inline-block">
           <Image addImg={cart} />
         </span>
-        <div>
-          <span className="text-[#9B9B9B] font-bold uppercase"> Hotline:</span>
-          <p className="font-bold text-black leading-4">00 1900 8188</p>
-        </div>
         <Button btnText={`Sign Up`} btnBg={`btn`} />
       </div>
     </nav>

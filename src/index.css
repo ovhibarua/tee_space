@@ -3,6 +3,11 @@
 
 body {
   font-family: "Plus Jakarta Sans", serif;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
 }
 
 @layer base {
@@ -46,7 +51,6 @@ body {
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32.4px; /* 180% */
     color: #7e7e7e;
   }
   li {
@@ -60,7 +64,7 @@ body {
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
-    line-height: 25.2px; /* 180% */
+    line-height: 20.2px; /* 180% */
     color: #7e7e7e;
   }
   button {
@@ -92,4 +96,33 @@ body {
 
 #btn {
   background-color: black;
+}
+
+#pickBnnr {
+  background-image: url(../src/assets/img/pickBnnr.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#pickBnnr2 {
+  background-image: url(../src/assets/img/pickBnnr2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#pickBnnr3 {
+  background-image: url(../src/assets/img/customBnrr.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#pickBnnr4 {
+  background-image: url(../src/assets/img/commentBnnr.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cardHover:hover {
+  box-shadow: 0px 29px 25px rgba(0, 0, 0, 0.07);
 }

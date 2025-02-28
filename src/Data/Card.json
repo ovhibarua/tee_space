@@ -1,0 +1,38 @@
+[
+  {
+    "product_name": "Crewneck Sweatshirt",
+    "brand": "Aibox",
+    "price": 17.91,
+    "size": "M",
+    "color": "Goldenrod",
+    "material": "cotton",
+    "img": "../../src/assets/img/card1.png"
+  },
+  {
+    "product_name": "Midweight Cotton Tee",
+    "brand": "Rhybox",
+    "price": 30.15,
+    "size": "M",
+    "color": "Green",
+    "material": "polyester",
+    "img": "../../src/assets/img/card2.png"
+  },
+  {
+    "product_name": "Youth Sleeve Tee",
+    "brand": "Chatterbridge",
+    "price": 24.55,
+    "size": "XL",
+    "color": "Green",
+    "material": "wool",
+    "img": "../../src/assets/img/card3.png"
+  },
+  {
+    "product_name": "Fine Jersey Tee",
+    "brand": "Zoovu",
+    "price": 28.1,
+    "size": "S",
+    "color": "Turquoise",
+    "material": "polyester",
+    "img": "../../src/assets/img/card4.png"
+  }
+]

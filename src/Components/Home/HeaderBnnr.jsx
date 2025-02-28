@@ -9,7 +9,7 @@ function HeaderBnnr() {
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 2 }}
       viewport={{ once: true }}
-      className="w-[800px]"
+      className="w-[800px] hidden md:block"
     >
       <Image addImg={bnnr} />
     </motion.div>

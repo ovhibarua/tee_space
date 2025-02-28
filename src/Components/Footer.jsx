@@ -24,10 +24,10 @@ const footerContent = [
 
 function Footer() {
   return (
-    <footer className="container mx-auto py-20">
+    <footer className="container mx-auto py-24">
       <div className="flex justify-between mb-20">
         <div>
-          <div className="mb-4 cursor-pointer">
+          <div className="mb-4 cursor-pointer w-[181px]">
             <Image addImg={logo} />
           </div>
           <p className="text-[16px]">hello@teespace.io</p>

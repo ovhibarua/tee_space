@@ -7,26 +7,26 @@ import { motion } from "motion/react";
 function HeaderContent() {
   return (
     <div>
-      <span className="text-[#B479D9] py-2 font-bold px-4 rounded-3xl bg-[#F4EBF9] inline-block mb-5">
+      <span className="text-[#B479D9] py-0.5 lg:py-2 font-bold px-3 lg:px-4 rounded-3xl bg-[#F4EBF9] inline-block mb-5">
         Create your own
       </span>
-      <h1 className="relative w-fit mb-6">
-        Make the most <br /> of printing
+      <h1 className="relative w-fit mb-6 max-w-[606px]">
+        Make the most <br /> of our T-shirt printing
         <motion.span
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 2 }}
           viewport={{ once: true }}
-          className="absolute top-[68px] right-0"
+          className="absolute hidden lg:block lg:top-[58px] xl:top-[68px] lg:right-[50px] xl:right-[100px]"
         >
           <Image addImg={style} />
         </motion.span>
       </h1>
-      <p className="mb-10 max-w-[720px]">
+      <p className="mb-8 md:mb-10 max-w-[660px]">
         What’s more, we do it right! A full administration printing background.
         Print shirts for yourself or your online business
       </p>
-      <div className="flex items-center gap-6 mb-14">
+      <div className="flex items-center gap-6 mb-8 md:mb-14">
         <Button btnText={`Shop Now`} />
         <span className="flex items-center gap-2.5 bg-none text-black text-[16px] font-bold cursor-pointer">
           How We Work
@@ -47,10 +47,10 @@ function HeaderContent() {
         </span>
       </div>
       <div className="flex items-center">
-        <div className="pr-8 border-r-[1px] border-[#CCCCCC]">
+        <div className="pr-4 md:pr-8 border-r-[1px] border-[#CCCCCC]">
           <h2>
             <CountUp
-              className=" text-[48px] text-black font-bold leading-12"
+              className="text-[28px]! lg:text-[38px]! xl:text-[48px]! text-black font-bold leading-12"
               start={0}
               end={4}
               duration={2.75}
@@ -59,10 +59,10 @@ function HeaderContent() {
           </h2>
           <p>Collections</p>
         </div>
-        <div className="pl-8">
+        <div className="pl-4 md:pl-8">
           <h2>
             <CountUp
-              className=" text-[48px] text-black font-bold leading-12"
+              className="text-[28px]! lg:text-[38px]! xl:text-[48px]! text-black font-bold leading-12"
               start={0}
               end={9}
               duration={2.75}
