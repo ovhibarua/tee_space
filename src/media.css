@@ -29,7 +29,7 @@
     font-size: 12px;
   }
   span {
-    font-size: 10px;
+    font-size: 12px;
   }
   h1 {
     font-size: 38px;
@@ -37,6 +37,9 @@
   }
 }
 @media screen and (max-width: 768px) {
+  input::placeholder {
+    font-size: 12px;
+  }
   h6 {
     font-size: 18px;
     line-height: 18px; /* 140% */
