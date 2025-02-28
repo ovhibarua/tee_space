@@ -1,11 +1,11 @@
 import Image from "../Image";
 
 const brandLogo = [
-  "/public/assets/img/logo-feedly.png",
-  "/public/assets/img/logo-hopin.png",
-  "/public/assets/img/logo-lattice.png",
-  "/public/assets/img/logo-spotify.png",
-  "/public/assets/img/logo-upwork.png",
+  "/assets/img/logo-feedly.png",
+  "/assets/img/logo-hopin.png",
+  "/assets/img/logo-lattice.png",
+  "/assets/img/logo-spotify.png",
+  "/assets/img/logo-upwork.png",
 ];
 function BrandSection() {
   return (
