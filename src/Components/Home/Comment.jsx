@@ -8,20 +8,31 @@ import { Autoplay } from "swiper/modules";
 function Comment() {
   return (
     <section id="pickBnnr4">
-      <div className="container mx-auto py-12 lg:py-24">
+      <div className="container mx-auto px-5 lg:px-0 py-12 lg:py-24">
         <CenterContent
           centerTitle={`What People Are Saying`}
           centerSubTitle={`We provide support for more than 15K+ Businesses.`}
         />
         <Swiper
-          slidesPerView={3}
+          slidesPerView={1}
           loop={true}
-          speed={3000}
+          speed={2500}
           spaceBetween={10}
-          centeredSlides={true}
+          centeredSlides={false}
           autoplay={{
             delay: 2000,
             disableOnInteraction: false,
+          }}
+          breakpoints={{
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 10,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 10,
+              centeredSlides: true,
+            },
           }}
           modules={[Autoplay]}
           className="mySwiper"

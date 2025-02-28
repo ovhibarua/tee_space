@@ -54,14 +54,11 @@ function Ideas() {
             {arrBox.map((item, id) => (
               <>
                 <motion.div
-                  initial={{ x: 0 }}
-                  whileHover={{ x: 40 }}
-                  transition={{ duration: 0.4 }}
                   key={id}
                   className="hover:bg-white text-center md:text-start p-6 hover:rounded-xl hover:shadow-gray-200 hover:shadow-lg"
                 >
-                  <h6 className="mb-2 w-[350px]">{item.boxTitle}</h6>
-                  <p className="text-sm w-[350px]">{item.boxPara}</p>
+                  <h6 className="mb-2 max-w-[350px]">{item.boxTitle}</h6>
+                  <p className="text-sm max-w-[350px]">{item.boxPara}</p>
                 </motion.div>
               </>
             ))}

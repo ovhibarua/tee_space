@@ -6,11 +6,11 @@ function CenterContent(pass) {
   const { centerTitle, centerSubTitle, addClass } = pass;
   return (
     <div
-      className={`flex flex-col items-center ${
+      className={`flex flex-col items-center relative z-40 ${
         addClass ? "mb-11" : "mb-12 md:mb-24"
       }`}
     >
-      <h3 className="mb-5 relative z-50 text-center">
+      <h3 className="mb-5 relative z-40 text-center">
         {centerTitle}
         <motion.span
           initial={{ opacity: 0 }}

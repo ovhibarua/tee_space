@@ -16,7 +16,7 @@ function CustomBnnr() {
       transition={{ duration: 1, delay: 0.3 }}
       viewport={{ once: true }}
       id="pickBnnr3"
-      className="w-full overflow-hidden rounded-xl px-14 py-10"
+      className="w-full overflow-hidden rounded-xl lg:px-14 lg:py-10 px-8 py-6"
     >
       {cusBnnrContent.map((item, id) => (
         <Content

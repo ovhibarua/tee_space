@@ -1,15 +1,76 @@
 import Image from "./Image";
 import logo from "../assets/img/logo-black.png.png";
 import cart from "../assets/img/addCart.png";
+import hamburger from "../assets/img/hamburger.png";
+import close from "../assets/img/close.png";
 import Button from "./Button";
+import { AnimatePresence, motion } from "motion/react";
+import { useState } from "react";
 
 const navLink = ["Home", "TeeSpace", "Shop", "Blog", "Pages"];
 
 function NavBar() {
+  const [open, setOpen] = useState(false);
+  const menuOpen = () => {
+    return setOpen(!open);
+  };
+
   return (
     <nav className="px-5 lg:px-7 py-4 lg:py-6 flex justify-between items-center">
-      <div className="w-32 lg:w-fit">
-        <Image addImg={logo} />
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.3 }}
+            className={`z-50 bg-[#000000c7] top-0 left-0 w-full h-full ${
+              open ? "fixed" : "hidden"
+            }`}
+          >
+            {open && (
+              <motion.div
+                initial={{ x: -40 }}
+                animate={{ x: 0 }}
+                exit={{ x: -40 }}
+                transition={{ duration: 0.5 }}
+                className="bg-white max-w-64 h-full p-5 flex flex-col"
+              >
+                <div onClick={menuOpen} className="w-6 h-6 cursor-pointer mb-6">
+                  <Image addImg={close} />
+                </div>
+                <ul className="flex flex-col items-star gap-4 mb-4">
+                  {navLink.map((item, index) => (
+                    <li
+                      className="font-bold cursor-pointer hover:text-[#2EBB77]"
+                      key={index}
+                    >
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+                <input
+                  className="px-3 py-2"
+                  type="search"
+                  name="search"
+                  id="search"
+                  placeholder="Search your item"
+                />
+              </motion.div>
+            )}
+          </motion.div>
+        )}
+      </AnimatePresence>
+      <div className="flex items-center gap-3">
+        <div
+          onClick={menuOpen}
+          className="w-6 h-6 block md:hidden cursor-pointer"
+        >
+          <Image addImg={hamburger} />
+        </div>
+        <div className="w-32 lg:w-fit">
+          <Image addImg={logo} />
+        </div>
       </div>
       <div className="hidden md:flex items-center gap-3 lg:gap-6">
         <ul className="flex items-center gap-4 lg:gap-6">

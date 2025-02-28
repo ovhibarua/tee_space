@@ -24,9 +24,9 @@ const footerContent = [
 
 function Footer() {
   return (
-    <footer className="container mx-auto py-24">
-      <div className="flex justify-between mb-20">
-        <div>
+    <footer className="container mx-auto px-5 lg:p-0 py-12 lg:py-24">
+      <div className="flex flex-col xl:flex-row justify-between mb-10 lg:mb-20">
+        <div className="mb-8">
           <div className="mb-4 cursor-pointer w-[181px]">
             <Image addImg={logo} />
           </div>
@@ -36,68 +36,70 @@ function Footer() {
             3665 Paseo Place, Suite 0960 <br /> San Diego
           </p>
         </div>
-        <div>
-          <h6 className="mb-5">Information</h6>
-          <ul className="flex flex-col gap-1">
-            {footerContent[0].map((item, id) => (
-              <motion.li
-                whileHover={{ x: 5 }}
-                className="cursor-pointer hover:text-[#2EBB77]"
-                key={id}
-              >
-                {item}
-              </motion.li>
-            ))}
-          </ul>
-        </div>
-        <div>
-          <h6 className="mb-5">Services</h6>
-          <ul className="flex flex-col gap-1">
-            {footerContent[1].map((item, id) => (
-              <motion.li
-                whileHover={{ x: 5 }}
-                className="cursor-pointer hover:text-[#2EBB77]"
-                key={id}
-              >
-                {item}
-              </motion.li>
-            ))}
-          </ul>
-        </div>
-        <div>
-          <h6 className="mb-5">Useful links</h6>
-          <ul className="flex flex-col gap-1">
-            {footerContent[2].map((item, id) => (
-              <motion.li
-                whileHover={{ x: 5 }}
-                className="cursor-pointer hover:text-[#2EBB77]"
-                key={id}
-              >
-                {item}
-              </motion.li>
-            ))}
-          </ul>
-        </div>
-        <div>
-          <h6 className="mb-5">Newsletter</h6>
-          <span className="font-medium mb-5 block">
-            Subscribe to our newsletter.
-          </span>
-          <form className="flex flex-col gap-3" action="#">
-            <Input
-              inputName={`email`}
-              inputType={`email`}
-              placeHolder={`Your email address`}
-            />
-            <Button submit={`submit`} btnText={`Subscribe`} />
-          </form>
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+          <div>
+            <h6 className="mb-5">Information</h6>
+            <ul className="flex flex-col gap-1">
+              {footerContent[0].map((item, id) => (
+                <motion.li
+                  whileHover={{ x: 5 }}
+                  className="cursor-pointer hover:text-[#2EBB77]"
+                  key={id}
+                >
+                  {item}
+                </motion.li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h6 className="mb-5">Services</h6>
+            <ul className="flex flex-col gap-1">
+              {footerContent[1].map((item, id) => (
+                <motion.li
+                  whileHover={{ x: 5 }}
+                  className="cursor-pointer hover:text-[#2EBB77]"
+                  key={id}
+                >
+                  {item}
+                </motion.li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h6 className="mb-5">Useful links</h6>
+            <ul className="flex flex-col gap-1">
+              {footerContent[2].map((item, id) => (
+                <motion.li
+                  whileHover={{ x: 5 }}
+                  className="cursor-pointer hover:text-[#2EBB77]"
+                  key={id}
+                >
+                  {item}
+                </motion.li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h6 className="mb-5">Newsletter</h6>
+            <span className="font-medium mb-5 block">
+              Subscribe to our newsletter.
+            </span>
+            <form className="flex flex-col gap-3" action="#">
+              <Input
+                inputName={`email`}
+                inputType={`email`}
+                placeHolder={`Your email address`}
+              />
+              <Button submit={`submit`} btnText={`Subscribe`} />
+            </form>
+          </div>
         </div>
       </div>
-      <div className="pt-12 border-t-[1px] border-[#EDEDED] flex justify-between items-center">
+      <div className="pt-8 lg:pt-12 border-t-[1px] border-[#EDEDED] flex justify-between items-center">
         <span className="text-[16px]">
           © 2022 TeeSpace. All rights reserved.
         </span>
-        <div>
+        <div className="hidden lg:block">
           <Image addImg={pay} />
         </div>
         <div className="flex items-center gap-4">
